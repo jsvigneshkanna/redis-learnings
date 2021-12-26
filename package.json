@@ -1,0 +1,35 @@
+{
+  "name": "redis-learnings",
+  "version": "1.0.0",
+  "description": "Learning Redis from redis-cloud application with different resources for tech blog",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsvigneshkanna/redis-learnings.git"
+  },
+  "keywords": [
+    "redis",
+    "nodejs",
+    "redislabs",
+    "upstash",
+    "python"
+  ],
+  "author": "jsvigneshkanna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsvigneshkanna/redis-learnings/issues"
+  },
+  "homepage": "https://github.com/jsvigneshkanna/redis-learnings#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "redis": "^4.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
