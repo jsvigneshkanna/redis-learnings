@@ -43,6 +43,7 @@ Learning Redis in-memory cache from different resources. Comes lets all learn to
         alt="Albuquerque, New Mexico">
     <figcaption>Source https://www.slideshare.net/RedHatDevelopers/redis-vs-infinispan-devnation-tech-talk</figcaption>
 </figure>
+
 ### Persistence/ Durability:
 
     1. As Redis is in-memory storage, it uses backup technique to store the data in hard-disk to use it in future if node is failed
