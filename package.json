@@ -26,6 +26,7 @@
   "homepage": "https://github.com/jsvigneshkanna/redis-learnings#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "ioredis": "^4.28.2",
     "redis": "^4.0.1"
   },
   "devDependencies": {
