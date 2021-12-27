@@ -1,5 +1,9 @@
 # redis-learnings
 
+<figure>
+    <img src="https://ps.w.org/redis-cache/assets/banner-1544x500.png?rev=2315420"
+         alt="Albuquerque, New Mexico">
+</figure>
 Learning Redis in-memory cache from different resources. Comes lets all learn together 💃
 
 > “I have not failed. I’ve just found 10,000 ways that won’t work.” – Thomas Edison
@@ -28,6 +32,17 @@ Learning Redis in-memory cache from different resources. Comes lets all learn to
     3. It uses master slave architecture
     4. It can be scaled horizontally and also vertically
 
+<figure>
+    <img src="https://miro.medium.com/max/875/1*vQu1EJwBV23rSv5_l5orBw.png"
+        alt="Albuquerque, New Mexico">
+    <figcaption>Source: https://www.slideshare.net/RedHatDevelopers/redis-vs-infinispan-devnation-tech-talk</figcaption>
+</figure>
+
+<figure>
+    <img src="https://miro.medium.com/max/875/1*CRfl7mLhU_LHu_keAljklQ.png"
+        alt="Albuquerque, New Mexico">
+    <figcaption>Source https://www.slideshare.net/RedHatDevelopers/redis-vs-infinispan-devnation-tech-talk</figcaption>
+</figure>
 ### Persistence/ Durability:
 
     1. As Redis is in-memory storage, it uses backup technique to store the data in hard-disk to use it in future if node is failed
@@ -91,7 +106,9 @@ Learning Redis in-memory cache from different resources. Comes lets all learn to
     - ioredis
     - redis
 2.  Clone this package.json and run cmd "npm install" to install above packages
-3.  In server.js use below code to connect to redis (localhost/ cloud)
+3.  For cloud Redis use below links [Upstash](https://console.upstash.com/), [RedisLabs](https://app.redislabs.com/#/login)
+4.  For localhost Redis download and install Redis and Redis cli
+5.  In server.js use below code to connect to redis (localhost/ cloud)
 
 ```js
 import express from "express";
